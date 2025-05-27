@@ -1,15 +1,20 @@
-<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
   <!-- Background rounded rectangle -->
-  <rect x="5" y="5" width="190" height="110" rx="20" ry="20" fill="#333" />
+  <rect x="0" y="0" width="256" height="256" rx="20" ry="20" fill="#333" />
 
   <!-- Neon effect for B -->
-  <text x="50" y="75" font-family="Arial, sans-serif" font-size="50" fill="#0ff" text-anchor="middle">
+  <text x="32" y="160" font-family="HarmonyOS Sans" font-weight="bold" font-size="172" fill="#0ff" text-anchor="start">
     <tspan filter="url(#glow)">B</tspan>
   </text>
 
   <!-- Neon effect for Æ -->
-  <text x="150" y="75" font-family="Arial, sans-serif" font-size="50" fill="#0ff" text-anchor="middle">
+  <text x="224" y="224" font-family="HarmonyOS Sans" font-weight="bold" font-size="172" fill="#0ff" text-anchor="end">
     <tspan filter="url(#glow)">Æ</tspan>
+  </text>
+
+  <!-- Neon effect for II -->
+  <text x="212" y="84" font-family="Quantum" font-size="64" fill="#0ff" text-anchor="end">
+    <tspan filter="url(#glow)">III</tspan>
   </text>
 
   <!-- Neon glow filter definition -->
