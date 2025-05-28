@@ -2,31 +2,41 @@
   <!-- Preset Linear Gradient -->
   <linearGradient id="base" x1="0" x2="0" y1="0" y2="1">
     <stop offset="0%" stop-color="#333" />
-    <stop offset="50%" stop-color="#666" stop-opacity="50" />
+    <stop offset="50%" stop-color="#666" stop-opacity="100" />
     <stop offset="100%" stop-color="#333" />
+  </linearGradient>
+  <linearGradient id="x" x1="0" x2="0" y1="0" y2="1">
+    <stop offset="0%" stop-color="#f00" />
+    <stop offset="50%" stop-color="#fff" stop-opacity="100" />
+    <stop offset="100%" stop-color="#ccc" />
   </linearGradient>
   <!-- Background rounded rectangle -->
   <rect x="0" y="0" width="256" height="256" rx="20" ry="20" fill="url(#base)" />
 
   <!-- Neon effect for B -->
-  <text x="32" y="160" font-family="HarmonyOS Sans" font-weight="bold" font-size="172" fill="#0ff" text-anchor="start">
+  <text x="32" y="160" font-family="HarmonyOS Sans" font-weight="bold" font-size="172" fill="#09C" text-anchor="start">
+    <animate attributeName="fill" values="#09C;#0FF;#09C" dur="3s" repeatCount="indefinite" />
     <tspan filter="url(#glow)">B</tspan>
   </text>
 
   <!-- Neon effect for Æ -->
-  <text x="224" y="224" font-family="HarmonyOS Sans" font-weight="bold" font-size="172" fill="#0ff" text-anchor="end">
+  <text x="224" y="224" font-family="HarmonyOS Sans" font-weight="bold" font-size="172" fill="#09C" text-anchor="end">
+    <animate attributeName="fill" values="#09C;#0FF;#09C" dur="3s" repeatCount="indefinite" />
     <tspan filter="url(#glow)">Æ</tspan>
   </text>
 
   <!-- Neon effect for II -->
-  <text x="212" y="84" font-family="Quantum" font-size="64" fill="#0ff" text-anchor="end">
+  <text x="219" y="81" font-family="Quantum" font-size="72" fill="#09C" text-anchor="end">
+    <animate attributeName="fill" values="#09C;#0FF;#09C" dur="3s" repeatCount="indefinite" />
     <tspan filter="url(#glow)">III</tspan>
   </text>
 
   <!-- Neon glow filter definition -->
   <defs>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feGaussianBlur stdDeviation="3" result="coloredBlur">
+        <animate attributeName="stdDeviation" values="3;8;3" dur="3s" repeatCount="indefinite" />
+      </feGaussianBlur>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
