@@ -38,6 +38,8 @@ Speranza:
         Airfield
             -> Airstrike
 
+        Defense Cannon
+
     T3:
         Battle Lab
             
@@ -47,5 +49,7 @@ Speranza:
 
         [SW]Artillery Field
             -> Artillery Bombard
+
+    
 
     
