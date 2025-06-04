@@ -1,0 +1,51 @@
+Building Structures:
+
+    Command Center -> Provide Radar and Ability to build
+    Power Plant -> Provide Power
+    Refinery -> Provide Cash
+    Silo -> Storage
+    Barracks -> Train Troops
+    Factory -> Build Units
+    Research Center -> Unlock T2 Tech
+    Advanced Power Plant -> Provide more Power
+    Larger Silo -> More Storage
+    Economy Building -> enhance Economy
+    Battle Lab -> Unlock T3 Tech
+    
+    Highest Auth -> Unlock T4 Tech
+
+
+Speranza:
+    T1: 
+        Command Center
+            - Radar Upgrade
+        Power Generator
+            - Overclocking Device
+        Refinery
+        Silo
+        Barracks
+        Factory
+
+        Shield Rail
+        Core tower
+            - Vulcan Upgrade
+            - Flak Upgrade
+
+    T2:
+        Upgrade Center
+            - Control tower -> Paradrop
+            - Receiver -> Aerorecon
+        Airfield
+            -> Airstrike
+
+    T3:
+        Battle Lab
+            
+        Shield Generator
+            -> Force Shield
+            -> Shield Wall
+
+        [SW]Artillery Field
+            -> Artillery Bombard
+
+    
