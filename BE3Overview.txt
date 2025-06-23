@@ -1,3 +1,9 @@
+Factions:
+    Irona
+    Speranza
+    Vosstania
+    
+
 Building Structures:
 
     Command Center -> Provide Radar and Ability to build
