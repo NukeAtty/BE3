@@ -1,0 +1,707 @@
+/* Universal Reset*/
+* {
+  color: #FFF;
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  color: #FFF;
+  margin: 1em auto;
+}
+
+/******************************************/
+/*********** Universal Elements ***********/
+/******************************************/
+
+body {
+    background-color: #0a0a0a;
+    color: #e0e0e0;
+    font-family: Roboto mono, monospace;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: radial-gradient(
+          circle farthest-side at 0% 50%,
+          #282828 23.5%,
+          rgba(255, 170, 0, 0) 0
+        )
+        21px 30px,
+      radial-gradient(
+          circle farthest-side at 0% 50%,
+          #2c3539 24%,
+          rgba(240, 166, 17, 0) 0
+        )
+        19px 30px,
+      linear-gradient(
+          #282828 14%,
+          rgba(240, 166, 17, 0) 0,
+          rgba(240, 166, 17, 0) 85%,
+          #282828 0
+        )
+        0 0,
+      linear-gradient(
+          150deg,
+          #282828 24%,
+          #2c3539 0,
+          #2c3539 26%,
+          rgba(240, 166, 17, 0) 0,
+          rgba(240, 166, 17, 0) 74%,
+          #2c3539 0,
+          #2c3539 76%,
+          #282828 0
+        )
+        0 0,
+      linear-gradient(
+          30deg,
+          #282828 24%,
+          #2c3539 0,
+          #2c3539 26%,
+          rgba(240, 166, 17, 0) 0,
+          rgba(240, 166, 17, 0) 74%,
+          #2c3539 0,
+          #2c3539 76%,
+          #282828 0
+        )
+        0 0,
+      linear-gradient(90deg, #2c3539 2%, #282828 0, #282828 98%, #2c3539 0%) 0 0
+        #282828;
+    background-size: 40px 60px;
+}
+
+a {
+    color: #00ffff; /* Neon cyan for links */
+    text-decoration: none;
+}
+a:hover {
+    text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #00ffff;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+}
+
+nav a {
+    margin: 0 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+main {
+    max-width: 60vw;
+    margin: auto;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+footer {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #00ffff;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+}
+
+footer a {
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.footer {
+  display: flex;
+  flex-flow: row;
+}
+
+.footer-left {
+  display: flex;
+  flex-flow: column;
+  width: 30%;
+}
+
+.sitemap {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin: auto;
+  width: 70%;
+}
+
+.sitemap-col {
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+}
+
+.lower-footer {
+  margin: 1em auto;
+  font-size: 12px;
+}
+
+/*Navigation Button*/
+
+/* From Uiverse.io by PhantomVail */ 
+.cyber-button {
+  position: relative;
+  padding: 1em;
+  background: #000;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: #fff;
+  text-transform: uppercase;
+  box-shadow:
+    0 0 15px #0ff,
+    inset 0 0 15px #0ff;
+  text-shadow: 0 0 5px #0ff;
+  transition: all 0.3s;
+}
+
+.cyber-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(0, 255, 255, 0.4),
+    transparent
+  );
+  transition: 0.5s;
+}
+
+.cyber-button:hover::before {
+  left: 100%;
+}
+
+.glitch {
+  position: relative;
+}
+
+.glitch::before, .glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.glitch::before {
+  animation: glitch-effect 3s infinite;
+  color: #ff00ff;
+  left: 2px;
+}
+
+.glitch::after {
+  animation: glitch-effect 2s infinite;
+  color: #00ffff;
+  left: -2px;
+}
+
+@keyframes glitch-effect {
+  0% {
+    transform: none;
+    opacity: 0.8;
+  }
+  7% {
+    transform: translate(-2px, -3px);
+    opacity: 0.6;
+  }
+  10% {
+    transform: translate(2px, 3px);
+    opacity: 0.8;
+  }
+  20% {
+    transform: none;
+    opacity: 0.8;
+  }
+  27% {
+    transform: translate(2px, 3px);
+    opacity: 0.6;
+  }
+  30% {
+    transform: translate(-2px, -3px);
+    opacity: 0.8;
+  }
+  35% {
+    transform: none;
+    opacity: 0.8;
+  }
+  100% {
+    transform: none;
+    opacity: 0.8;
+  }
+}
+
+.cyberpunk-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #0ff;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 85% 100%, 0 100%);
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 10px,
+    rgba(0, 255, 255, 0.1) 10px,
+    rgba(0, 255, 255, 0.1) 20px
+  );
+}
+
+.scanline {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    transparent 50%,
+    rgba(0, 255, 255, 0.2) 50%
+  );
+  background-size: 100% 4px;
+  animation: scan 0.5s linear infinite;
+}
+
+@keyframes scan {
+  0% {
+    background-position: 0 -1000px;
+  }
+  100% {
+    background-position: 0 1000px;
+  }
+}
+
+.cyber-button:hover {
+  transform: scale(1.05);
+  box-shadow:
+    0 0 25px #0ff,
+    inset 0 0 25px #0ff;
+}
+
+.cyber-button:active {
+  transform: scale(0.95);
+}
+
+/*********** Overview ***********/
+
+
+
+/* From Uiverse.io by Navarog21 */ 
+.cta-button {
+  position: relative;
+  width: 10em;
+  height: 4em;
+  outline: none;
+  transition: 0.1s;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ddebf0;
+}
+
+#clip {
+  --color: #2761c3;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  border: 5px double var(--color);
+  box-shadow: inset 0px 0px 15px #195480;
+  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
+.arrow {
+  position: absolute;
+  transition: 0.2s;
+  background-color: #2761c3;
+  top: 35%;
+  width: 11%;
+  height: 30%;
+}
+
+#leftArrow {
+  left: -13.5%;
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 50%);
+}
+
+#rightArrow {
+  -webkit-clip-path: polygon(100% 49%, 0 0, 0 100%);
+  left: 102%;
+}
+
+.cta-button:hover #rightArrow {
+  background-color: #27c39f;
+  left: -15%;
+  animation: 0.6s ease-in-out both infinite alternate rightArrow8;
+}
+
+.cta-button:hover #leftArrow {
+  background-color: #27c39f;
+  left: 103%;
+  animation: 0.6s ease-in-out both infinite alternate leftArrow8;
+}
+
+.corner {
+  position: absolute;
+  width: 4em;
+  height: 4em;
+  background-color: #2761c3;
+  box-shadow: inset 1px 1px 8px #2781c3;
+  transform: scale(1) rotate(45deg);
+  transition: 0.2s;
+}
+
+#rightTop {
+  top: -1.98em;
+  left: 91%;
+}
+
+#leftTop {
+  top: -1.96em;
+  left: -3.0em;
+}
+
+#leftBottom {
+  top: 2.10em;
+  left: -2.15em;
+}
+
+#rightBottom {
+  top: 45%;
+  left: 88%;
+}
+
+.cta-button:hover #leftTop {
+  animation: 0.1s ease-in-out 0.05s both changeColor8,
+  0.2s linear 0.4s both lightEffect8;
+}
+
+.cta-button:hover #rightTop {
+  animation: 0.1s ease-in-out 0.15s both changeColor8,
+  0.2s linear 0.4s both lightEffect8;
+}
+
+.cta-button:hover #rightBottom {
+  animation: 0.1s ease-in-out 0.25s both changeColor8,
+  0.2s linear 0.4s both lightEffect8;
+}
+
+.cta-button:hover #leftBottom {
+  animation: 0.1s ease-in-out 0.35s both changeColor8,
+  0.2s linear 0.4s both lightEffect8;
+}
+
+.cta-button:hover .corner {
+  transform: scale(1.25) rotate(45deg);
+}
+
+.cta-button:hover #clip {
+  animation: 0.2s ease-in-out 0.55s both greenLight8;
+  --color: #27c39f;
+}
+
+@keyframes changeColor8 {
+  from {
+    background-color: #2781c3;
+  }
+
+  to {
+    background-color: #27c39f;
+  }
+}
+
+@keyframes lightEffect8 {
+  from {
+    box-shadow: 1px 1px 5px #27c39f;
+  }
+
+  to {
+    box-shadow: 0 0 2px #27c39f;
+  }
+}
+
+@keyframes greenLight8 {
+  from {
+  }
+
+  to {
+    box-shadow: inset 0px 0px 32px #27c39f;
+  }
+}
+
+@keyframes leftArrow8 {
+  from {
+    transform: translate(0px);
+  }
+
+  to {
+    transform: translateX(10px);
+  }
+}
+
+@keyframes rightArrow8 {
+  from {
+    transform: translate(0px);
+  }
+
+  to {
+    transform: translateX(-10px);
+  }
+}
+
+/* From Uiverse.io by MijailVillegas */ 
+.container {
+  position: fixed;
+  top: 20vh;
+  left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  display: flex;
+  margin: 0;
+  aspect-ratio: 16/9;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.card-container {
+  filter: drop-shadow(46px 36px 24px #4090b5) drop-shadow(-55px -40px 25px #9e30a9);
+  animation: blinkShadowsFilter 8s ease-in infinite;
+}
+
+.card-content {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  padding: 1em;
+  grid-template-rows: 0.1fr 0.7fr 0.25fr;
+  background-color: hsl(296, 59%, 10%);
+  width: 10em;
+  aspect-ratio: 9/16;
+  -webkit-clip-path: polygon(0 0, 85% 0, 100% 14%, 100% 60%, 92% 65%, 93% 77%, 99% 80%, 99% 90%, 89% 100%, 0 100%);
+  clip-path: polygon(0 0, 85% 0, 100% 14%, 100% 60%, 92% 65%, 93% 77%, 99% 80%, 99% 90%, 89% 100%, 0 100%);
+}
+
+.card-content::before {
+  content: "";
+  position: absolute;
+  width: 250%;
+  aspect-ratio: 1/1;
+  transform-origin: center;
+  background: linear-gradient(to bottom, transparent, transparent, #66e0ff, #66e0ff, #e366ff, #e366ff, transparent, transparent), linear-gradient(to left, transparent, transparent, #66e0ff, #66e0ff, #e366ff, #e366ff, transparent, transparent);
+  animation: rotate 5s infinite linear;
+}
+
+.card-content::after {
+  content: "";
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  width: 98%;
+  height: 98%;
+  background: repeating-linear-gradient(to bottom, transparent 0%, rgba(64, 144, 181, 0.6) 1px, rgb(0, 0, 0) 3px, rgba(64, 144, 181, 0.3019607843) 5px, #153544 4px, transparent 0.5%), repeating-linear-gradient(to left, hsl(295, 60%, 12%) 100%, hsla(295, 60%, 12%, 0.99) 100%);
+  box-shadow: inset 0px 0px 30px 40px hsl(296, 59%, 10%);
+  -webkit-clip-path: polygon(0 0, 85% 0, 100% 14%, 100% 60%, 92% 65%, 93% 77%, 99% 80%, 99% 90%, 89% 100%, 0 100%);
+  clip-path: polygon(0 0, 85% 0, 100% 14%, 100% 60%, 92% 65%, 93% 77%, 99% 80%, 99% 90%, 89% 100%, 0 100%);
+  animation: backglitch 94ms linear infinite;
+}
+
+.card-title {
+  z-index: 80;
+  -webkit-clip-path: polygon(90% 0, 100% 100%, 0% 100%, 0% 0%);
+  clip-path: polygon(90% 0, 100% 100%, 0% 100%, 0% 0%);
+  background: linear-gradient(90deg, rgba(255, 254, 250, 0) 0%, rgba(102, 224, 255, 0.3) 27%, rgba(102, 224, 255, 0.3) 63%, rgba(255, 255, 255, 0) 100%), linear-gradient(0deg, rgba(102, 224, 255, 0.3) 0%, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 96%, rgba(102, 224, 255, 0.3) 100%);
+  width: 98%;
+  font-size: 1.2em;
+}
+
+.title {
+  width: 100%;
+  height: 100%;
+  text-align: right;
+  position: relative;
+  z-index: 2;
+  color: hsl(192, 100%, 88%);
+  font-size: 1em;
+  transition: all ease-in-out 2s linear;
+}
+
+.card-body {
+  padding-block: 1.5em;
+  padding-inline: 1em;
+  z-index: 80;
+  display: flex;
+  gap: 1.5em;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.svg-card {
+  text-decoration: none;
+  color: hsl(192, 100%, 88%);
+  background: linear-gradient(90deg, transparent 0%, rgba(102, 224, 255, 0.2) 27%, rgba(102, 224, 255, 0.2) 63%, transparent 100%);
+  fill: currentColor;
+  width: 2em;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.svg-card .face {
+  width: 0.7em;
+}
+
+.svg-card .twit {
+  width: 1em;
+}
+
+.svg-card .insta {
+  width: 1em;
+}
+
+.svg-card .whats {
+  width: 1.1em;
+}
+
+.svg-card:hover {
+  cursor: pointer;
+  color: hsl(192, 100%, 100%);
+}
+
+.card-footer {
+  padding-inline: 1em;
+}
+
+@keyframes backglitch {
+  0% {
+    box-shadow: inset 0px 20px 30px 40px hsl(296, 59%, 10%);
+  }
+
+  50% {
+    box-shadow: inset 0px -20px 30px 40px hsl(296, 59%, 10.2%);
+  }
+
+  to {
+    box-shadow: inset 0px 20px 30px 40px hsl(296, 59%, 10%);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) translate(-50%, 20%);
+  }
+
+  50% {
+    transform: rotate(180deg) translate(40%, 10%);
+  }
+
+  to {
+    transform: rotate(360deg) translate(-50%, 20%);
+  }
+}
+
+@keyframes blinkShadowsFilter {
+  0% {
+    filter: drop-shadow(46px 36px 28px rgba(64, 144, 181, 0.3411764706)) drop-shadow(-55px -40px 28px #9e30a9);
+  }
+
+  25% {
+    filter: drop-shadow(46px -36px 24px rgba(64, 144, 181, 0.8980392157)) drop-shadow(-55px 40px 24px #9e30a9);
+  }
+
+  50% {
+    filter: drop-shadow(46px 36px 30px rgba(64, 144, 181, 0.8980392157)) drop-shadow(-55px 40px 30px rgba(159, 48, 169, 0.2941176471));
+  }
+
+  75% {
+    filter: drop-shadow(20px -18px 25px rgba(64, 144, 181, 0.8980392157)) drop-shadow(-20px 20px 25px rgba(159, 48, 169, 0.2941176471));
+  }
+
+  to {
+    filter: drop-shadow(46px 36px 28px rgba(64, 144, 181, 0.3411764706)) drop-shadow(-55px -40px 28px #9e30a9);
+  }
+}/*# sourceMappingURL=style.css.map */
+
+
+/*Feature Card*/
+.features-cards {
+  display: flex;
+  flex-flow: row;
+}
+
+.feature-card-outer {
+  background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+  border-radius: 20px;
+  transition: all .3s;
+  justify-content: center;
+  margin: 5vh 1vw;
+}
+
+.feature-card-outer:hover {
+ box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}
+
+.feature-card-inner {
+ background-color: #1a1a1a;
+ border-radius:;
+ transition: all .2s;
+ padding: 1em;
+ margin: auto;
+}
+
+.feature-card-inner:hover {
+ transform: scale(0.98);
+ border-radius: 20px;
+}
