@@ -33,3 +33,17 @@
 | 8 |
 | 9 |
 | 10 |
+
+## Vehicles
+| TechLevel | Side1 | Side2 | Side3 | Side4 |
+|-----------|-------|-------|-------|-------|
+| 1 | Harvester | Harvester | Harvester | Harvest Drone |
+| 2 | Knight Tank | Storm Tank |  | Planet Recon |
+| 3 | Archer AFV |  |  |  |
+| 4 | Repair Tank |  |  | SV |
+| 5 | 
+| 6 |
+| 7 |  |  | Python Hoverjet | Planet Escort |
+| 8 | Avalanche Mech | Valkyrie Tank | | Stellar Carrier |
+| 9 | 
+| 10 |

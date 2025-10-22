@@ -158,7 +158,9 @@ footer a {
   font-size: 12px;
 }
 
-/*Navigation Button*/
+/*****************************************/
+/*********** Navigation Button ***********/
+/*****************************************/
 
 /* From Uiverse.io by PhantomVail */ 
 .cyber-button {
@@ -322,9 +324,12 @@ footer a {
   transform: scale(0.95);
 }
 
-/*********** Overview ***********/
 
+/*********************************/
+/*********** Main Page ***********/
+/*********************************/
 
+/*********** Overview Section ***********/
 
 /* From Uiverse.io by Navarog21 */ 
 .cta-button {
