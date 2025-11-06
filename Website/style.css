@@ -684,6 +684,7 @@ footer a {
 .features-cards {
   display: flex;
   flex-flow: row;
+  width: 100%;
 }
 
 .feature-card-outer {
@@ -691,7 +692,7 @@ footer a {
   border-radius: 20px;
   transition: all .3s;
   justify-content: center;
-  margin: 5vh 1vw;
+  margin: 5vh 2vw;
 }
 
 .feature-card-outer:hover {
@@ -700,9 +701,9 @@ footer a {
 
 .feature-card-inner {
  background-color: #1a1a1a;
- border-radius:;
+ border-radius: 0px;
  transition: all .2s;
- padding: 1em;
+ padding: 2em;
  margin: auto;
 }
 
