@@ -7,7 +7,7 @@
 | REGINA |  |
 
 ## Buildings
-| TechLevel | Speranza | Vosstania | Irona | REGINA |
+| TechLevel | Irona | Vosstania | Speranza | REGINA |
 |-----------|-------|-------|-------|-------|
 | 1 | Power Plant | Power Plant | Power Plant | Power Core | 
 | 2 | Refinery | Refinery | Refinery | Refinery |
@@ -23,11 +23,11 @@
 ## Defenses
 | TechLevel | Side1 | Side2 | Side3 | Side4 |
 |-----------|-------|-------|-------|-------|
-| 1 |
-| 2 |
-| 3 |
-| 4 |
-| 5 |
+| 1 | Steel Wall | Concrete Wall | Particle Wall | Beam Wall |
+| 2 | Sentry Tower | Flame Gun | Component Tower ||
+| 3 | Cannon Tower | Electrode Gun | Vulcan Turret ||
+| 4 | Missile Tower |
+| 5 | 
 | 6 |
 | 7 |
 | 8 |
