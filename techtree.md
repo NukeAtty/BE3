@@ -35,15 +35,15 @@
 | 10 |
 
 ## Vehicles
-| TechLevel | Speranza | Vosstania | Irona | REGINA |
-|-----------|-------|-------|-------|-------|
+| TechLevel | Irona | Vosstania | Speranza | REGINA |
+|-----------|-------|-----------|----------|-------|
 | 1 | Harvester | Harvester | Harvester | Harvest Drone |
-| 2 | Bisonte Tank | Storm Tank | Knight Tank | Planet Recon |
-| 3 | Skink | Thunderbolt SPAAG | Archer |  |
-| 4 | Repair Tank |  |  | SV |
-| 5 | 
-| 6 | Serpent Bomber |  |  |  |
-| 7 | Python Hoverjet |  |  | Planet Escort |
-| 8 | Caesar Tank | Avalanche Mech | Leo Tank | | Stellar Carrier |
+| 2 | Ranger |  | Lynx Tank | Planet Recon |
+| 3 | Archer | Thunderbolt SPAAG | Stinger |  |
+| 4 | Knight Tank | Storm Tank |  | SV |
+| 5 | Minstrel Support Vehicle |  |  |
+| 6 |  |  | Serpent Bomber |  |
+| 7 | Phalanx MLRS | Sky Fire | Python Hoverjet | Planet Escort |
+| 8 | Iron Duke | Avalanche Mech |  | Stellar Carrier |
 | 9 | 
 | 10 |
