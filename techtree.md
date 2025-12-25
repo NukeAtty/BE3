@@ -38,12 +38,12 @@
 | TechLevel | Irona | Vosstania | Speranza | REGINA |
 |-----------|-------|-----------|----------|-------|
 | 1 | Harvester | Harvester | Harvester | Harvest Drone |
-| 2 | Ranger |  | Lynx Tank | Planet Recon |
+| 2 | Ranger | Storm Tank |  | Planet Recon |
 | 3 | Archer | Thunderbolt SPAAG | Stinger |  |
-| 4 | Knight Tank | Storm Tank |  | SV |
+| 4 | Knight Tank | Blaze Tank | Lynx Tank | SV |
 | 5 | Minstrel Support Vehicle |  |  |
-| 6 |  |  | Serpent Bomber |  |
+| 6 |  |  |  |  |
 | 7 | Phalanx MLRS | Sky Fire | Python Hoverjet | Planet Escort |
-| 8 | Iron Duke | Avalanche Mech |  | Stellar Carrier |
+| 8 | Iron Duke | Avalanche Mech | Serpent Bomber | Stellar Carrier |
 | 9 | 
 | 10 |
