@@ -61,10 +61,10 @@ Cons:
 | TechLevel | Irona | Vosstania | Speranza | REGINA |
 |-----------|-------|-----------|----------|--------|
 | 1 | Wall | Fortified Wall | Particle Wall | Beam Fence |
-| 2 | Component Tower | Tank Bunker |  |
-| 3 | Sentry Upgrade | Flame Thrower |  |
-| 4 | Flak Upgrade | SAM |  |
-| 5 | Cannon Upgrade |  | Shield Generator |
+| 2 | Component Tower | Tank Bunker | N/A | Beam Gun |
+| 3 | Sentry Upgrade | Flame Thrower | Vulcan Tower | ADS |
+| 4 | Flak Upgrade | SAM | Shield Generator | Drone Silo |
+| 5 | Cannon Upgrade |  |  |
 | 6 |
 
 ## Tactics
@@ -119,7 +119,7 @@ Cons:
 | 4 | Aegis | Shield Generator | $2000 | $2000 |
 | 5 | Python Hoverjet | Vulcan | $1800 |  |
 | 6 | Viper Gunship | 90mm Auto / MLRS | $2400 |
-| 7 | Manticore Particle Cannon | PC-1 | $2200 | Siege, can deal ambient damage. |
+| 7 | Manticore Cannon | PC-1 | $2200 | Siege, can deal ambient damage. |
 | 8 | Chimera Tank |  | $2400 |
 
 ### 
@@ -132,9 +132,9 @@ Cons:
 | 1 | Harvester | N/A | $700 | Lost control upon low power. |
 | 2 | Planet Recon | B-13 | $600 | Lost control upon low power. |
 | 3 | Vindicator | B-15 / MLRS | $1200 | Lost control upon low power. |
-| 4 |  |
+| 4 | Settler | N/A | $2000 | Deploy 
 | 5 |  |
-| 6 | Cosmos Corvette | B-15A | $2000 | |
+| 6 | Cosmos Corvette | B-15A | $2000 |  |
 | 7 | Breachmaker | BC-15 | $2500 |  |
 | 8 | Dominator | X-7 | $5000 |  |
 | 9 | Mobile Beacon | N/A | $5000 |  |
