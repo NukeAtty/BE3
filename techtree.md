@@ -80,25 +80,51 @@ Cons:
 | 1 | Harvester | Harvester | Harvester | Harvester |
 | 2 |  | IFV |  | Planet Recon |
 | 3 | Cavalier Tank | Storm Tank | Bizon Tank ||
-| 4 | Sentinal MRV |  |  |  |
+| 4 | Sentinal MRV | Stealth Tank |  |  |
 | 5 |  | Squall SPAAG | Python Hoverjet | Vindicator |
 | 6 |  | Thunderbolt Chopper | Serpent | Cosmos Corvette |
-| 7 | Howitzer | ICBM |  | Breachmaker |
-| 8 | Crusher Tank | Valkyrie Tank | Stealth Tank | Dominator |
+| 7 | Howitzer | Skyfire |  | Breachmaker |
+| 8 | Crusher Tank | Avalanche Tank | Stealth Tank | Dominator |
 
 ### Irona Vehicles
 | Tech Level | Vehicles | Armament | Cost | Trait |
-| 1 | Harvester | N/A | $1400 | |
+|------------|----------|----------|------|-------|
+| 1 | Harvester | N/A | $1400 | Largest Storage |
 | 2 | 
 | 3 | Cavalier Tank | 105mm / 7.62mm | $1200 |  |
 | 4 | Sentinal MRV (Mobile Repair Vehicle) | Repair Crane | $1800 | Can deploy into a service depot and repair units within 3x3 range. |
-| 5 | IFV | SAM | $2000 | Initially load 5 heavy gunner and can fire out. |
-| 6 |
-| 7 | Howitzer | 203mm |
-| 8 | Crusher Tank | 120mm x2 / SAM | $2750 | Can crush vehicles. |
+| 5 | SPAAG | 40mm x 2 | $1400 |  |
+| 6 |  |
+| 7 | Bishop Howitzer | 183mm |
+| 8 | Crusher Tank | 120mm x2 | $2750 | Can crush vehicles |
 
 ### Vosstania Vehicles
+| Tech Level | Vehicles | Armament | Cost | Trait |
+|------------|----------|----------|------|-------|
+| 1 | War Harvester | 14.5mm | $1400 | 0.75 of normal Harvester |
+| 2 | IFV | 14.5mm | $600 | initial payload 5 infantries. |
+| 3 | Storm Tank | 115mm / 7.62mm | $1400 |  |
+| 4 | Inferno Tank | Flame Thrower | $1600 |  |
+| 5 | Squall Tank | 23mm / SAM | $1800 | AA only. |
+| 6 | Thunderbolt Chopper | 30mm / ATGM | |
+| 7 | Skyfire | ICBM | $2200 |  |
+| 8 | Avalanche Tank | 152mm / SAM | $3000 |
 
+### Speranza Vehicles
+| Tech Level | Vehicles | Armament | Cost | Trait |
+|------------|----------|----------|------|-------|
+| 1 | Stealth Harvester | N/A | $1400 | 0.75 of normal Harvester |
+| 2 | Combat Car | Vulcan |  |
+| 3 | Bizon Tank | 90mm Auto / 7.62mm | $1400 |  |
+| 4 | Aegis | Shield Generator | $2000 | $2000 |
+| 5 | Python Hoverjet | Vulcan | $1800 |  |
+| 6 | Serpent Gunship | 90mm Auto / MLRS | $2400 |
+| 7 | Particle Cannon | PC-1 | $2200 |  |
+| 8 | Chimera Tank |  | $2400 |
+
+### 
+| Tech Level | Vehicles | Armament | Cost | Trait |
+|------------|----------|----------|------|-------|
 
 ### REGINA Vehicles
 | Tech Level | Vehicles | Armament | Cost | Trait |
@@ -107,7 +133,7 @@ Cons:
 | 2 | Planet Recon | B-13 | $600 | Lost control upon low power. |
 | 3 | Vindicator | B-15 / MLRS | $1200 | Lost control upon low power. |
 | 4 |  |
-| 5 | |
+| 5 |  |
 | 6 | Cosmos Corvette | B-15A | $2000 | |
 | 7 | Breachmaker | BC-15 | $2500 |  |
 | 8 | Dominator | X-7 | $5000 |  |
