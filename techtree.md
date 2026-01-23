@@ -62,10 +62,16 @@ Cons:
 |-----------|-------|-----------|----------|--------|
 | 1 | Wall | Fortified Wall | Particle Wall | Beam Fence |
 | 2 | Component Tower | Tank Bunker | N/A | Beam Gun |
-| 3 | Sentry Upgrade | Flame Thrower | Vulcan Tower | ADS |
+| 3 | Sentry Upgrade | Flame Thrower | Vulcan Tower | B.A.D.S. |
 | 4 | Flak Upgrade | SAM | Shield Generator | Drone Silo |
 | 5 | Cannon Upgrade |  |  |
 | 6 |
+
+
+### REGINA Defenses
+| Tech Level | Defenses | Armament | Cost | Trait |
+|------------|----------|----------|------|-------|
+| 3 | Beam Air Defense System | Beam
 
 ## Tactics
 | Irona | Vosstania | Speranza | REGINA |
