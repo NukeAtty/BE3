@@ -55,7 +55,8 @@ Cons:
 ## Buildings
 | TechLevel | Irona | Vosstania | Speranza | REGINA |
 |-----------|-------|-----------|----------|--------|
-
+| 1 | Power Generator | Power Generator | Power Core | Power Receiver |
+| 2 | Ore Refinery | Ore Refinery | Ore Refinery | Ore Refinery |
 
 ## Defenses
 | TechLevel | Irona | Vosstania | Speranza | REGINA |
@@ -65,13 +66,35 @@ Cons:
 | 3 | Sentry Upgrade | Flame Thrower | Vulcan Tower | B.A.D.S. |
 | 4 | Flak Upgrade | SAM | Shield Generator | Drone Silo |
 | 5 | Cannon Upgrade |  |  |
-| 6 |
+| 6 |  |
+| 7 |
+| 8 |
+| 9 |  |  |  |  |
+| 10 | Artillery Silo | Missile Silo | Aerodome | MOBIUS Uplink |
 
+### Irona Defenses
+| Tech Level | Defenses | Armament | Cost | Trait |
+|------------|----------|----------|------|-------|
+| 2 | Component Tower | N/A | $500 | Can upgrade |
+| 3 | Sentry Gun Upgrade | 20mm Oerikon x2 | $100 |
+| 4 | Flak Gun Upgrade | 94mm Flak Gun | $500 |
+| 5 | Cannon Upgrade | 120mm Cannon | $1000 |
+| 6 |  |
+
+### Speranza Defenses
+| Tech Level | Defenses | Armament | Cost | Trait |
+|------------|----------|----------|------|-------|
+| 1 | Particle Wall | | | When fully charged, spawn particle wall, block all projectiles. |
+| 2 | 
+| 3 | Vulcan Tower | Vulcan | $1000 | AG / AA |
+| 4 | Shield Generator | | $1500 | Give shield to surrouding ground vehicles in 3x3 area every 20 seconds, shield lasts 15 seconds. | 
 
 ### REGINA Defenses
 | Tech Level | Defenses | Armament | Cost | Trait |
 |------------|----------|----------|------|-------|
-| 3 | Beam Air Defense System | Beam
+| 3 | Beam Air Defense System | Beam Saber | $1000 | 
+| 4 | Drone Silo | Drone | $2000 |
+| 5 |
 
 ## Tactics
 | Irona | Vosstania | Speranza | REGINA |
