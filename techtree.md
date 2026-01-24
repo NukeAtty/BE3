@@ -57,6 +57,8 @@ Cons:
 |-----------|-------|-----------|----------|--------|
 | 1 | Power Generator | Power Generator | Power Core | Power Receiver |
 | 2 | Ore Refinery | Ore Refinery | Ore Refinery | Ore Refinery |
+| 3 | Weapon Factory | Weapon Factory | Weapon Factory | Shuttler |
+| 4 | 
 
 ## Defenses
 | TechLevel | Irona | Vosstania | Speranza | REGINA |
