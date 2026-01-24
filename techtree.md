@@ -60,13 +60,26 @@ Cons:
 | 3 | Weapon Factory | Weapon Factory | Weapon Factory | Shuttler |
 | 4 | Strategy Center | Radar | Radar | Satellite Node |
 | 5 | Helipad | Helipad | Helipad | Landing Zone |
-| 6 | N/A | Armory |  |  |
-| 7 | Battle Lab | Battle Lab | Battle Lab |  |
+| 6 | N/A | Armory | Particle Institute | Droppod Control |
+| 7 | Protocol Center | Battle Lab | Battle Lab |  |
 | 8 | N/A | Power Plant | Battery Set | Thread Enhancer |
 | 9 | N/A | Industrial Complex | Ore Purifier |  |
-| 10 | N/A | | Particle Institute | |
 
-
+### Irona Buildings
+| Tech Level | Buildings | Cost | Trait |
+|------------|-----------|------|-------|
+| 1 | Power Generator | $600 | Upgradable |
+| 2 | Ore Refinery | $2000 | |
+| 3 | Weapon Factory | $2000 |
+| 4 | Strategy Center | $1000 | Upgradable |
+| 5 | Helipad | $2000 | |
+| 7 | Protocol Center | $2000 | Upgradable |
+| ↑ | Power Turbine | $200 | Upgrade on Power Generator and power +100. |
+| ↑ | Control Tower | $500 | Upgrade on Strategy Center and provides [Aero Recon] and [Airborne] tactic. |
+| ↑ | Radar Tower | $1000 | Upgrade on Strategy Center and provides battlefield review. |
+| ↑ | Advanced Economy Protocol | $1000 | Upgrade on Protocol Center and provides [War Funds] tactic. |
+| ↑ | Advanced Weapon Protocol | $1000 | Upgrade on Protocol Center and provides [PowerUp] tactic. |
+| ↑ | Advanced Defense Protocol | $1000 | Upgrade on Protocol Center and provides Fortress Cannon. |
 
 ## Defenses
 | TechLevel | Irona | Vosstania | Speranza | REGINA |
@@ -78,18 +91,22 @@ Cons:
 | 5 | N/A | N/A | N/A | N/A |
 | 6 | N/A | N/A | N/A | N/A |
 | 7 | N/A | Missile Pod | Shield Generator | Drone Silo |
-| 8 |  |  |  |  |
-| 9 |  |  |  |  |
+| 8 | Fortress Cannon |  |  |  |
+| 9 | Artillery Base |  |  |  |
 | 10 | Grand Cannon | Missile Silo | Aerodome | MOBIUS Uplink |
 
 ### Irona Defenses
 | Tech Level | Defenses | Armament | Cost | Trait |
 |------------|----------|----------|------|-------|
 | 2 | Component Tower | N/A | $500 | Can upgrade |
-| 3 | Sentry Gun Upgrade | 20mm Oerikon x2 | $100 |
-| 4 | Flak Gun Upgrade | 94mm Flak Gun | $500 |
-| 5 | Cannon Upgrade | 120mm Cannon | $1000 |
-| 6 |  |
+| 3 | Sentry Gun Upgrade | 20mm Oerikon x2 | $100 | Counters infantries and light vehicles. |
+| 4 | Flak Gun Upgrade | 94mm Flak Gun | $500 | Counters aircrafts. |
+| 5 | Cannon Upgrade | 120mm Cannon | $1000 | Counters all ground units. |
+| 6 | N/A | N/A | N/A | N/A |
+| 7 | N/A | N/A | N/A | N/A |
+| 8 | N/A | N/A | N/A | N/A |
+| 9 | N/A | N/A | N/A | N/A |
+| 10 | Grand Cannon | 406mm Cannon | $5000 | Gain [Bombardment] tactic. |
 
 ### Speranza Defenses
 | Tech Level | Defenses | Armament | Cost | Trait |
@@ -97,7 +114,8 @@ Cons:
 | 1 | Particle Wall | | | When fully charged, spawn particle wall, block all projectiles. |
 | 2 | 
 | 3 | Vulcan Tower | Vulcan | $1000 | AG / AA |
-| 4 | Shield Generator | | $1500 | Give shield to surrouding ground vehicles in 3x3 area every 20 seconds, shield lasts 15 seconds. | 
+| 4 ||||
+| 5 | Shield Generator | | $1500 | Give shield to surrouding ground vehicles in 3x3 area every 20 seconds, shield lasts 15 seconds. | 
 
 ### REGINA Defenses
 | Tech Level | Defenses | Armament | Cost | Trait |
@@ -116,7 +134,6 @@ Cons:
 ### Irona Tactics
 | Tactics | Prerequisite | Trait |
 |---------|--------------|-------|
-| Radar Scan | Radar Upgrade |
 | Aero Recon | Air Control Upgrade |
 | Airborne | Air Control Upgrade |
 | Grand Cannon | Bombardment |
