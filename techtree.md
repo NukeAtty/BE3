@@ -104,7 +104,7 @@ Cons:
 | 5 | Cannon Upgrade | 120mm Cannon | $1000 | Counters all ground units. |
 | 6 | N/A | N/A | N/A | N/A |
 | 7 | N/A | N/A | N/A | N/A |
-| 8 | N/A | N/A | N/A | N/A |
+| 8 | Fortress Cannon | 203mm Cannon | $2000 | N/A |
 | 9 | N/A | N/A | N/A | N/A |
 | 10 | Grand Cannon | 406mm Cannon | $5000 | Gain [Bombardment] tactic. |
 
@@ -116,6 +116,11 @@ Cons:
 | 3 | Vulcan Tower | Vulcan | $1000 | AG / AA |
 | 4 ||||
 | 5 | Shield Generator | | $1500 | Give shield to surrouding ground vehicles in 3x3 area every 20 seconds, shield lasts 15 seconds. | 
+| 6 | N/A | N/A | N/A | N/A |
+| 7 | N/A | N/A | N/A | N/A |
+| 8 | Particle Cannon | Particle Caster | Damage enemy units in a line. |
+| 9 | | | |
+| 10 | Aerodome | N/A | $5000 | Gain [Titan Strike] tactic. |
 
 ### REGINA Defenses
 | Tech Level | Defenses | Armament | Cost | Trait |
@@ -123,6 +128,7 @@ Cons:
 | 3 | Beam Air Defense System | Beam Saber | $1000 | 
 | 4 | Drone Silo | Drone | $2000 |
 | 5 |
+| 10 | MOBIUS Uplink | N/A | $5000 | Gain [Mobius Strike] tactic. |
 
 ## Tactics
 | Irona | Vosstania | Speranza | REGINA |
