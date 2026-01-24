@@ -58,7 +58,13 @@ Cons:
 | 1 | Power Generator | Power Generator | Power Core | Power Receiver |
 | 2 | Ore Refinery | Ore Refinery | Ore Refinery | Ore Refinery |
 | 3 | Weapon Factory | Weapon Factory | Weapon Factory | Shuttler |
-| 4 | 
+| 4 | Strategy Center | Radar |  |
+| 5 | Radar Upgrade | N/A |
+| 6 | Air Control Upgrade |  |
+| 7 |  |  |
+| 8 | Battle Lab | | |
+| 9 | Power Protocol | Power Plant | |
+| 10 | Support Protocol |
 
 ## Defenses
 | TechLevel | Irona | Vosstania | Speranza | REGINA |
@@ -72,7 +78,7 @@ Cons:
 | 7 |
 | 8 |
 | 9 |  |  |  |  |
-| 10 | Artillery Silo | Missile Silo | Aerodome | MOBIUS Uplink |
+| 10 | Grand Cannon | Missile Silo | Aerodome | MOBIUS Uplink |
 
 ### Irona Defenses
 | Tech Level | Defenses | Armament | Cost | Trait |
@@ -103,7 +109,15 @@ Cons:
 |-------|-----------|----------|--------|
 | Paratrooper | Paratrooper | Dropship | Droppod |
 |  |  |  |
-| Bombard | Missile Strike | Biology Bombing | Orbital Strike |
+| Bombardment | Missile Strike | Biology Bombing | Orbital Strike |
+
+### Irona Tactics
+| Tactics | Prerequisite | Trait |
+|---------|--------------|-------|
+| Radar Scan | Radar Upgrade |
+| Aero Recon | Air Control Upgrade |
+| Airborne | Air Control Upgrade |
+| Grand Cannon | Bombardment |
 
 ## Vehicles
 | TechLevel | Irona | Vosstania | Speranza | REGINA |
