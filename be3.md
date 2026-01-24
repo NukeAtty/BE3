@@ -35,4 +35,3 @@
 《先驱者计划》的根本目的是：延续人类火种，扩大生存空间。
 地球的拉格朗日点L2并不是一个永久稳定的地方，因此在这里所建立的殖民卫星群也并不是完全固定的。新的殖民卫星分别为先驱者I，先驱者II，先驱者III，这三个殖民卫星均安装有核聚变脉冲推进器，并被一搜巨型飞船链接在了一起，这艘飞船则是先驱者号（REGIES BV-001 Trailblazer）。
 > 注：REGIES是Republic of Earth Government Interstella Explorer Ship的缩写。
-
