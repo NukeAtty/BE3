@@ -59,12 +59,12 @@ Cons:
 | 2 | Ore Refinery | Ore Refinery | Ore Refinery | Ore Refinery |
 | 3 | Weapon Factory | Weapon Factory | Weapon Factory | Shuttler |
 | 4 | Strategy Center | Radar |  |
-| 5 | Radar Upgrade | N/A |
-| 6 | Air Control Upgrade |  |
-| 7 |  |  |
+| 5 | Helipad | N/A | Helipad |
+| 6 | N/A | Armory |  |
+| 7 | N/A |  |  |
 | 8 | Battle Lab | | |
-| 9 | Power Protocol | Power Plant | |
-| 10 | Support Protocol |
+| 9 | N/A | Power Plant | Battery Set | Thread Enhancer |
+| 10 | N/A | 
 
 ## Defenses
 | TechLevel | Irona | Vosstania | Speranza | REGINA |
