@@ -58,25 +58,27 @@ Cons:
 | 1 | Power Generator | Power Generator | Power Core | Power Receiver |
 | 2 | Ore Refinery | Ore Refinery | Ore Refinery | Ore Refinery |
 | 3 | Weapon Factory | Weapon Factory | Weapon Factory | Shuttler |
-| 4 | Strategy Center | Radar |  |
-| 5 | Helipad | N/A | Helipad |
-| 6 | N/A | Armory |  |
-| 7 | N/A |  |  |
-| 8 | Battle Lab | | |
-| 9 | N/A | Power Plant | Battery Set | Thread Enhancer |
-| 10 | N/A | 
+| 4 | Strategy Center | Radar | Radar | Satellite Node |
+| 5 | Helipad | Helipad | Helipad | Landing Zone |
+| 6 | N/A | Armory |  |  |
+| 7 | Battle Lab | Battle Lab | Battle Lab |  |
+| 8 | N/A | Power Plant | Battery Set | Thread Enhancer |
+| 9 | N/A | Industrial Complex | Ore Purifier |  |
+| 10 | N/A | | Particle Institute | |
+
+
 
 ## Defenses
 | TechLevel | Irona | Vosstania | Speranza | REGINA |
 |-----------|-------|-----------|----------|--------|
 | 1 | Wall | Fortified Wall | Particle Wall | Beam Fence |
-| 2 | Component Tower | Tank Bunker | N/A | Beam Gun |
-| 3 | Sentry Upgrade | Flame Thrower | Vulcan Tower | B.A.D.S. |
-| 4 | Flak Upgrade | SAM | Shield Generator | Drone Silo |
-| 5 | Cannon Upgrade |  |  |
-| 6 |  |
-| 7 |
-| 8 |
+| 2 | N/A | Tank Bunker | N/A | N/A |
+| 3 | Component Tower | Flame Thrower | Vulcan Tower | Beam Gun |
+| 4 | N/A | SAM | N/A | B.A.D.S. |
+| 5 | N/A | N/A | N/A | N/A |
+| 6 | N/A | N/A | N/A | N/A |
+| 7 | N/A | Missile Pod | Shield Generator | Drone Silo |
+| 8 |  |  |  |  |
 | 9 |  |  |  |  |
 | 10 | Grand Cannon | Missile Silo | Aerodome | MOBIUS Uplink |
 
@@ -109,7 +111,7 @@ Cons:
 |-------|-----------|----------|--------|
 | Paratrooper | Paratrooper | Dropship | Droppod |
 |  |  |  |
-| Bombardment | Missile Strike | Biology Bombing | Orbital Strike |
+| Bombardment | Missile Strike | Biochemical Bombing | Orbital Strike |
 
 ### Irona Tactics
 | Tactics | Prerequisite | Trait |
@@ -165,11 +167,8 @@ Cons:
 | 5 | Python Hoverjet | Vulcan | $1800 |  |
 | 6 | Viper Gunship | 90mm Auto / MLRS | $2400 |
 | 7 | Manticore Cannon | PC-1 | $2200 | Siege, can deal ambient damage. |
-| 8 | Chimera Tank |  | $2400 |
-
-### 
-| Tech Level | Vehicles | Armament | Cost | Trait |
-|------------|----------|----------|------|-------|
+| 8 | Chimera Tank | Particle Cannon / Vulcan | $2400 |
+| 9 | Mobile Command Vehicle | N/A | $3000 | Deploy into command center. |
 
 ### REGINA Vehicles
 | Tech Level | Vehicles | Armament | Cost | Trait |
@@ -182,4 +181,4 @@ Cons:
 | 6 | Cosmos Corvette | B-15A | $2000 |  |
 | 7 | Breachmaker | BC-15 | $2500 |  |
 | 8 | Dominator | X-7 | $5000 |  |
-| 9 | Mobile Beacon | N/A | $5000 |  |
+| 9 | Mobile Beacon | N/A | $3000 | Deploy into command beacon. |
