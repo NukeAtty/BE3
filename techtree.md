@@ -66,25 +66,25 @@ Cons:
 | 9 | N/A | Industrial Complex | Ore Purifier |  |
 
 ### Irona Buildings
-| Tech Level | Buildings | Cost | Trait |
-|------------|-----------|------|-------|
-| 1 | Power Generator | $600 | Upgradable |
-| 2 | Ore Refinery | $2000 | |
-| 3 | Weapon Factory | $2000 |
-| 4 | Strategy Center | $1000 | Upgradable |
-| 5 | Helipad | $2000 | |
-| 7 | Protocol Center | $2000 | Upgradable |
-| ↑ | Power Turbine | $200 | Upgrade on Power Generator and power +100. |
-| ↑ | Control Tower | $500 | Upgrade on Strategy Center and provides [Aero Recon] and [Airborne] tactic. |
-| ↑ | Radar Tower | $1000 | Upgrade on Strategy Center and provides battlefield review. |
-| ↑ | Advanced Economy Protocol | $1000 | Upgrade on Protocol Center and provides [War Funds] tactic. |
-| ↑ | Advanced Weapon Protocol | $1000 | Upgrade on Protocol Center and provides [PowerUp] tactic. |
-| ↑ | Advanced Defense Protocol | $1000 | Upgrade on Protocol Center and provides Fortress Cannon. |
+| Tech Level | Buildings | ID | Cost | Trait |
+|------------|-----------|----|------|-------|
+| 1 | Power Generator | IAPOWR | $600 | Upgradable |
+| 2 | Ore Refinery | IAREFN | $2000 | |
+| 3 | Weapon Factory | IAWEAP | $2000 |
+| 4 | Strategy Center | IASTTG | $1000 | Upgradable |
+| 5 | Helipad | IAHELI | $2000 |  |
+| 7 | Protocol Center | IAPROT | $2000 | Upgradable |
+| ↑ | Power Turbine | IAPOWRUP | $200 | Upgrade on Power Generator and power +100. |
+| ↑ | Control Tower | IAAIRT | $500 | Upgrade on Strategy Center and provides [Aero Recon] and [Airborne] tactic. |
+| ↑ | Radar Tower | IARADR | $1000 | Upgrade on Strategy Center and provides battlefield review. |
+| ↑ | Advanced Economy Protocol | IAPLUG1 | $1000 | Upgrade on Protocol Center and provides [War Funds] tactic. |
+| ↑ | Advanced Weapon Protocol | IAPLUG2 | $1000 | Upgrade on Protocol Center and provides [PowerUp] tactic. |
+| ↑ | Advanced Defense Protocol | IAPLUG3 | $1000 | Upgrade on Protocol Center and provides Fortress Cannon. |
 
 ## Defenses
 | TechLevel | Irona | Vosstania | Speranza | REGINA |
 |-----------|-------|-----------|----------|--------|
-| 1 | Wall | Fortified Wall | Particle Wall | Beam Fence |
+| 1 | Steel Wall | Fortified Wall | Particle Wall | Beam Fence |
 | 2 | N/A | Tank Bunker | N/A | N/A |
 | 3 | Component Tower | Flame Thrower | Vulcan Tower | Beam Gun |
 | 4 | N/A | SAM | N/A | B.A.D.S. |
@@ -96,17 +96,18 @@ Cons:
 | 10 | Grand Cannon | Missile Silo | Aerodome | MOBIUS Uplink |
 
 ### Irona Defenses
-| Tech Level | Defenses | Armament | Cost | Trait |
-|------------|----------|----------|------|-------|
-| 2 | Component Tower | N/A | $500 | Can upgrade |
-| 3 | Sentry Gun Upgrade | 20mm Oerikon x2 | $100 | Counters infantries and light vehicles. |
-| 4 | Flak Gun Upgrade | 94mm Flak Gun | $500 | Counters aircrafts. |
-| 5 | Cannon Upgrade | 120mm Cannon | $1000 | Counters all ground units. |
+| Tech Level | Defenses | ID | Armament | Cost | Trait |
+|------------|----------|----|----------|------|-------|
+| 1 | Steel Wall | IAWALL | N/A | $100 | Can connect component tower |
+| 2 | Component Tower | IACTWR | N/A | $500 | Can upgrade |
+| 3 | Sentry Gun Upgrade | IASGUN | 20mm Oerikon x2 | $100 | Counters infantries and light vehicles. |
+| 4 | Flak Gun Upgrade | IAFLAK | 94mm Flak Gun | $500 | Counters aircrafts. |
+| 5 | Cannon Upgrade | IACANN | 120mm Cannon | $1000 | Counters all ground units. |
 | 6 | N/A | N/A | N/A | N/A |
 | 7 | N/A | N/A | N/A | N/A |
-| 8 | Fortress Cannon | 203mm Cannon | $2000 | N/A |
+| 8 | Fortress Cannon | IAFORT | 203mm Cannon | $2000 | N/A |
 | 9 | N/A | N/A | N/A | N/A |
-| 10 | Grand Cannon | 406mm Cannon | $5000 | Gain [Bombardment] tactic. |
+| 10 | Grand Cannon | IAGCAN | 406mm Cannon | $5000 | Gain [Bombardment] tactic. |
 
 ### Speranza Defenses
 | Tech Level | Defenses | Armament | Cost | Trait |
@@ -157,23 +158,29 @@ Cons:
 | Droppod | Droppod Control | |
 | Orbital Strike | MOBIUS Uplink | |
 
+## Infantries (Unbuildable)
+| Irona | Vosstania | Speranza | REGINA |
+|-------|-----------|----------|--------|
+| Heavygunner | Assaulter | Harbinger | Marine |
+| Engineer | Engineer | Engineer | Engineer |
+
 ## Vehicles
 | TechLevel | Irona | Vosstania | Speranza | REGINA |
 |-----------|-------|-----------|----------|--------|
 | 1 | Harvester | Harvester | Harvester | Harvester |
-| 2 |  | IFV |  | Planet Recon |
+| 2 | Wanderer Tank | IFV | Harrier | Planet Recon |
 | 3 | Cavalier Tank | Storm Tank | Bizon Tank ||
-| 4 | Sentinal MRV | Stealth Tank |  |  |
-| 5 |  | Squall SPAAG | Python Hoverjet | Vindicator |
-| 6 |  | Thunderbolt Chopper | Serpent | Cosmos Corvette |
-| 7 | Howitzer | Skyfire |  | Breachmaker |
+| 4 | Sentinal MRV |  |  |  |
+| 5 | SPAAG | Squall Tank | Python Hoverjet | Vindicator |
+| 6 | Meteor | Thunderbolt Chopper | Serpent | Cosmos Corvette |
+| 7 | Priest Howitzer | Skyfire |  | Breachmaker |
 | 8 | Crusher Tank | Avalanche Tank | Stealth Tank | Dominator |
 
 ### Irona Vehicles
 | Tech Level | Vehicles | Armament | Cost | Trait |
 |------------|----------|----------|------|-------|
 | 1 | Harvester | N/A | $1400 | Largest Storage |
-| 2 | Wanderer Tank | 76mm | $600 |  |
+| 2 | Wanderer Tank | 76mm | $800 |  |
 | 3 | Cavalier Tank | 105mm / 7.62mm | $1200 |  |
 | 4 | Minstrel MRV (Mobile Repair Vehicle) | Repair Crane | $1800 | Can deploy into a service depot and repair units within 3x3 range. |
 | 5 | Marksman SPAAG | 40mm x 2 | $1400 |  |
@@ -185,7 +192,7 @@ Cons:
 | Tech Level | Vehicles | Armament | Cost | Trait |
 |------------|----------|----------|------|-------|
 | 1 | War Harvester | 14.5mm | $1400 | 0.75 of normal Harvester |
-| 2 | IFV | 14.5mm | $500 | initial payload 5 infantries. |
+| 2 | IFV | 76mm | $1200 | initial payload 5 infantries. |
 | 3 | Storm Tank | 115mm / 7.62mm | $1400 |  |
 | 4 | Inferno Tank | Flame Thrower | $1600 |  |
 | 5 | Squall Tank | SAM | $1800 | AA only. |
