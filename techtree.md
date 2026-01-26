@@ -169,12 +169,12 @@ Cons:
 |-----------|-------|-----------|----------|--------|
 | 1 | Harvester | Harvester | Harvester | Harvester |
 | 2 | Wanderer Tank | IFV | Harrier | Planet Recon |
-| 3 | Cavalier Tank | Storm Tank | Bizon Tank ||
-| 4 | Sentinal MRV |  |  |  |
-| 5 | SPAAG | Squall Tank | Python Hoverjet | Vindicator |
-| 6 | Meteor | Thunderbolt Chopper | Serpent | Cosmos Corvette |
-| 7 | Priest Howitzer | Skyfire |  | Breachmaker |
-| 8 | Crusher Tank | Avalanche Tank | Stealth Tank | Dominator |
+| 3 | Cavalier Tank | Storm Tank | Bizon Tank | N/A |
+| 4 | Minstrel MRV | Inferno Tank | Aegis SV |  |
+| 5 | Marksman SPAAG | Squall Tank | Python Hoverjet | Vindicator |
+| 6 | Meteor Attacker | Thunderbolt Chopper | Viper Gunship | Cosmos Corvette |
+| 7 | Priest Howitzer | Skyfire | Manticore | Breachmaker |
+| 8 | Crusher Tank | Avalanche Tank | Chimera | Dominator |
 
 ### Irona Vehicles
 | Tech Level | Vehicles | Armament | Cost | Trait |
@@ -184,8 +184,8 @@ Cons:
 | 3 | Cavalier Tank | 105mm / 7.62mm | $1200 |  |
 | 4 | Minstrel MRV (Mobile Repair Vehicle) | Repair Crane | $1800 | Can deploy into a service depot and repair units within 3x3 range. |
 | 5 | Marksman SPAAG | 40mm x 2 | $1400 |  |
-| 6 |  |
-| 7 | Bishop Howitzer | 183mm | $2000 | |
+| 6 | Meteor Attacker | General Bomb x2 | $2000 |  |
+| 7 | Priest Howitzer | 183mm | $2000 |  |
 | 8 | Crusher Tank | 120mm x2 | $2500 | Can crush vehicles |
 
 ### Vosstania Vehicles
@@ -193,8 +193,8 @@ Cons:
 |------------|----------|----------|------|-------|
 | 1 | War Harvester | 14.5mm | $1400 | 0.75 of normal Harvester |
 | 2 | IFV | 76mm | $1200 | initial payload 5 infantries. |
-| 3 | Storm Tank | 115mm / 7.62mm | $1400 |  |
-| 4 | Inferno Tank | Flame Thrower | $1600 |  |
+| 3 | Storm Tank | 125mm / 7.62mm | $1400 |  |
+| 4 | Inferno Tank | Flame Thrower | $1600 | Anti infantry, can kill occupants. |
 | 5 | Squall Tank | SAM | $1800 | AA only. |
 | 6 | Thunderbolt Chopper | 30mm / ATGM | |
 | 7 | Skyfire | ICBM | $2200 |  |
@@ -203,23 +203,23 @@ Cons:
 ### Speranza Vehicles
 | Tech Level | Vehicles | Armament | Cost | Trait |
 |------------|----------|----------|------|-------|
-| 1 | Stealth Harvester | N/A | $1400 | 0.75 of normal Harvester |
+| 1 | Aegis Harvester | N/A | $1400 | 0.75 of normal Harvester |
 | 2 | Harrier Combat Car | Vulcan |  |
 | 3 | Bizon Tank | 90mm Auto / 7.62mm | $1400 |  |
 | 4 | Aegis | Shield Generator | $2000 | $2000 |
 | 5 | Python Hoverjet | Vulcan | $1800 |  |
 | 6 | Viper Gunship | 90mm Auto / MLRS | $2400 |
 | 7 | Manticore Cannon | PC-1 | $2200 | Siege, can deal ambient damage. |
-| 8 | Chimera Tank | Particle Cannon / Vulcan | $2400 |
+| 8 | Chimera Tank | 120mm AutoLoader / Vulcan | $2400 |
 | 9 | Mobile Command Vehicle | N/A | $3000 | Deploy into command center. |
 
 ### REGINA Vehicles
 | Tech Level | Vehicles | Armament | Cost | Trait |
 |------------|----------|----------|------|-------|
-| 1 | Harvester | N/A | $700 | Lost control upon low power. |
+| 1 | Collector | N/A | $700 | Lost control upon low power. |
 | 2 | Planet Recon | B-13 | $600 | Lost control upon low power. |
 | 3 | Vindicator | B-15 / MLRS | $1200 | Lost control upon low power. |
-| 4 | Settler | N/A | $2000 | Deploy 
+| 4 | Settler | N/A | $2000 | Deploys into outpost. |
 | 5 |  |
 | 6 | Cosmos Corvette | B-15A | $2000 |  |
 | 7 | Breachmaker | BC-15 | $2500 |  |
