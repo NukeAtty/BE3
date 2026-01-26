@@ -140,9 +140,22 @@ Cons:
 ### Irona Tactics
 | Tactics | Prerequisite | Trait |
 |---------|--------------|-------|
-| Aero Recon | Air Control Upgrade |
-| Airborne | Air Control Upgrade |
-| Grand Cannon | Bombardment |
+| Aero Recon | Air Control Upgrade ||
+| Airborne | Air Control Upgrade ||
+| Bombardment | Grand Cannon ||
+
+### Speranza Tactics
+| Tactics | Prerequisite | Trait |
+|---------|--------------|-------|
+| | | |
+| Particle Defense | Particle Institute | Particle Walls start blocking projectiles and units. |
+| Titan Strike | Aerodome | Summon 5 Titan Bombers |
+
+### REGINA Tactics
+| Tactics | Prerequisite | Trait |
+|---------|--------------|-------|
+| Droppod | Droppod Control | |
+| Orbital Strike | MOBIUS Uplink | |
 
 ## Vehicles
 | TechLevel | Irona | Vosstania | Speranza | REGINA |
