@@ -17,8 +17,4 @@ All buildings will have wreckage upon destroyed, but they will be buildings inst
 
 ## Ore
 ORE stands for Overpowered Rare Element, is the mystic ore only found on Planet.
-There are four types of ORE:
-- Orichalcum: low value, stable.
-- Aquamarine: high value, unstable.
-- Mithril: high value, stable.
-- Amethyst: high value, stable.
+GEM stands for Glorious Extraterrestial Material, is another mystic ore found on Plant, different from ORE, GEM is very precious but unstable.
