@@ -18,3 +18,5 @@ All buildings will have wreckage upon destroyed, but they will be buildings inst
 ## Ore
 ORE stands for Overpowered Rare Element, is the mystic ore only found on Planet.
 GEM stands for Glorious Extraterrestial Material, is another mystic ore found on Plant, different from ORE, GEM is very precious but unstable.
+
+## Battle
