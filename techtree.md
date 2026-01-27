@@ -7,16 +7,21 @@
 | REGINA | Beam / Drone | Medium Armoured / Beam Gun |
 
 ### Irona
+Color: Gold
+Scheme: Desert
 
 Pros:
 - Strong survivability.
 - Strongest DPM, units can win 1v1 battle.
+- Economy is not so stable when facing Vosstania.
 
 Cons:
 - Too conventional and no special mechanics.
 - Units are overall slow.
 
 ### Vosstania
+Color: Red
+Scheme: Olive
 
 Pros:
 - Industrial beast, can produce a large army in short time.
@@ -27,19 +32,24 @@ Cons:
 - Unit armor is not strong enough.
 
 ### Speranza
+Color: Blue
+Scheme: Steel
 
 Pros:
 - Shield is very useful and maximized its survivability.
-- 
+- Economy is stable.
 
 Cons:
 - Units have poor survivability when have no shield.
-- 
+- Units are expensive.
 
 ### REGINA
+Color: Neon
+Scheme: Silver
 
 Pros:
-- 
+- Most units won't be affected by poison.
+- Super strong airforce.
 
 Cons:
 - Units are too expensive.
@@ -161,7 +171,7 @@ Cons:
 ## Infantries (Unbuildable)
 | Irona | Vosstania | Speranza | REGINA |
 |-------|-----------|----------|--------|
-| Heavygunner | Assaulter | Harbinger | Marine |
+| Heavygunner | Assaulter | Harbinger | Cosmos Marine |
 | Engineer | Engineer | Engineer | Engineer |
 
 ## Vehicles
@@ -193,35 +203,35 @@ Cons:
 |------------|----------|----------|------|-------|
 | 1 | War Harvester | 14.5mm | $1400 | 0.75 of normal Harvester |
 | 2 | IFV | 76mm | $1200 | initial payload 5 infantries. |
-| 3 | Storm Tank | 125mm / 7.62mm | $1400 |  |
+| 3 | Storm Tank | 122mm / 7.62mm | $1400 |  |
 | 4 | Inferno Tank | Flame Thrower | $1600 | Anti infantry, can kill occupants. |
 | 5 | Squall Tank | SAM | $1800 | AA only. |
 | 6 | Thunderbolt Chopper | 30mm / ATGM | |
 | 7 | Skyfire | ICBM | $2200 |  |
-| 8 | Avalanche Tank | 152mm / SAM | $2750 |
+| 8 | Avalanche Tank | 152mm / SAM | $2750 |  |
 
 ### Speranza Vehicles
 | Tech Level | Vehicles | Armament | Cost | Trait |
 |------------|----------|----------|------|-------|
 | 1 | Aegis Harvester | N/A | $1400 | 0.75 of normal Harvester |
-| 2 | Harrier Combat Car | Vulcan |  |
-| 3 | Bizon Tank | 90mm Auto / 7.62mm | $1400 |  |
-| 4 | Aegis | Shield Generator | $2000 | $2000 |
-| 5 | Python Hoverjet | Vulcan | $1800 |  |
-| 6 | Viper Gunship | 90mm Auto / MLRS | $2400 |
+| 2 | Harrier Combat Car | Vulcan | $800 | Strong vs light armor vehicles and infantries |
+| 3 | Bizon Tank | 90mm Auto / 7.62mm | $1400 | Strong vs heavy armor vehicles and buildings |
+| 4 | Aegis Caster | Shield Generator | $2000 | Can cast shield to surrounding units |
+| 5 | Python Hoverjet | Vulcan | $1800 | Strong vs light armor vehicle and infantries |
+| 6 | Viper Gunship | 90mm Auto / MLRS | $2400 | Strong vs vehicle and buildings |
 | 7 | Manticore Cannon | PC-1 | $2200 | Siege, can deal ambient damage. |
-| 8 | Chimera Tank | 120mm AutoLoader / Vulcan | $2400 |
+| 8 | Chimera Tank | 120mm AutoLoader / Vulcan | $2400 |  |
 | 9 | Mobile Command Vehicle | N/A | $3000 | Deploy into command center. |
 
 ### REGINA Vehicles
 | Tech Level | Vehicles | Armament | Cost | Trait |
 |------------|----------|----------|------|-------|
 | 1 | Collector | N/A | $700 | Lost control upon low power. |
-| 2 | Planet Recon | B-13 | $600 | Lost control upon low power. |
-| 3 | Vindicator | B-15 / MLRS | $1200 | Lost control upon low power. |
+| 2 | Planet Recon | B-13 Beam Gun | $600 | Lost control upon low power. |
+| 3 | Vindicator | B-15 Beam Gun / MLRS | $1200 | Lost control upon low power. |
 | 4 | Settler | N/A | $2000 | Deploys into outpost. |
-| 5 |  |
-| 6 | Cosmos Corvette | B-15A | $2000 |  |
-| 7 | Breachmaker | BC-15 | $2500 |  |
-| 8 | Dominator | X-7 | $5000 |  |
+| 5 | N/A | | | |
+| 6 | Cosmos Corvette | B-15A | $2000 | Beam Cannon to attack air and Rocket to attack ground. |
+| 7 | Breachmaker Cruiser | BC-15 | $2500 | Beam Cannon to attack ground. |
+| 8 | Dominator Carrier | X-7 | $5000 | Drone Carrier. |
 | 9 | Mobile Beacon | N/A | $3000 | Deploy into command beacon. |
