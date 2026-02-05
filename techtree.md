@@ -230,7 +230,7 @@ Cons:
 | 2 | Planet Recon | B-13 Beam Gun | $600 | Lost control upon low power. |
 | 3 | Vindicator | B-15 Beam Gun / MLRS | $1200 | Lost control upon low power. |
 | 4 | Settler | N/A | $2000 | Deploys into outpost. |
-| 5 | N/A | | | |
+| 5 | Marauder | Crane | $1000 | Grab weapons. |
 | 6 | Cosmos Corvette | B-15A | $2000 | Beam Cannon to attack air and Rocket to attack ground. |
 | 7 | Breachmaker Cruiser | BC-15 | $2500 | Beam Cannon to attack ground. |
 | 8 | Dominator Carrier | X-7 | $5000 | Drone Carrier. |
