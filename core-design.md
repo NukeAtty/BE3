@@ -5,7 +5,7 @@ Bellum Æternum III will have only one type of theatre, modified from New Urban.
 In the future, there might be two.
 
 ## Terrains
-Completely new, no bridges, no waters, no shores.
+Completely new. no bridges, no waters, no shores, only city.
 
 ## Urban Combat
 Infantries can occupy buildings, but building would be penetrate by certain ammunitions:
@@ -17,6 +17,6 @@ All buildings will have wreckage upon destroyed, but they will be buildings inst
 
 ## Ore
 ORE stands for Overpowered Rare Element, is the mystic ore only found on Planet.
-GEM stands for Glorious Extraterrestial Material, is another mystic ore found on Plant, different from ORE, GEM is very precious but unstable.
+GEM stands for Gorgeous Extraterrestial Material, is another mystic ore found on Plant, different from ORE, GEM is very precious but unstable.
 
 ## Battle
